@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    .title {
+        font-weight: 500;
+        height: 30px;
+    }
+    .screen {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: beige;
+        padding: 16px;
+        width: 100%;
+        .videoWrap {
+            width: 500px;
+            .video {
+                width: 480px;
+                height: 270px;
+                border: 1px solid fuchsia;
+                border-radius: 8px;
+            }
+        }
+        .devicesWrap {
+            display: flex;
+            flex-direction: column;
+            margin-left: 16px;
+            .devices {
+                overflow-y: auto;
+                max-height: 200px;
+            }
+        }
+    }
+}
+
+
+
+.content {
+    margin: 16px;
+    .oneWrap {
+        display: flex;
+        flex-direction: column;
+        margin: 16px 16px 16px 0;
+    }
+    .button {
+        width: 100px;
+        margin: 8px 8px 8px 0;
+    }
+}
